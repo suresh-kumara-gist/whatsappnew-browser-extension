@@ -1,0 +1,30 @@
+<html>
+<head>
+  <title>WhatsApp New Number</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="wnn.css" />
+</head>
+<body>
+  <div class="form-wrapper">
+    <h1>WhatsApp New Number</h1>
+    <div class="whatsapp-field-wrapper" id="whatsapp-field-wrapper">
+      <select name="country" id="country" >
+        <option>--Select Country--</option>
+      </select>
+      <div id="country-code-error"></div>
+      <div class="country-code-dropdown" id="country-code-dropdown">
+        <input id="country-code" size="6" type="text" readonly name="countryCode" />
+        <input name="phone_number" size="15" required id="phone-number" placeholder="Phone Number"  type="text">
+      </div>
+      <div id="phone-number-error"></div>
+    </div>
+    <!-- <button id="open-whatsapp">Open</button> -->
+    <button id="open-whatsapp-newtab">Open In New Tab</button>    
+    <!-- <input type="submit"> -->
+  </div>
+  <div class="ad-space">
+  </div>
+</body>
+<script src="country_code.js"></script>
+<script src="wnn.js"></script>
+</html>

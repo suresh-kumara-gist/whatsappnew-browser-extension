@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "WhatsApp New Number",
+  "description": "Those who are using WhatsApp in browser finds it difficult to send a message to new contact number without saving phone number to phone contact. WhatsApp New Number extension helps them out.",
+  "version": "1.0",
+  "action": {
+    "default_popup": "wnn.html",
+    "default_icon": "./images/whatsapp-69-432556.png"
+  },
+  "icons": {
+    "16": "./images/icons/favicon-16x16.png",
+    "32": "./images/icons/favicon-32x32.png",
+    "192": "./images/icons/android-chrome-192x192.png"
+  }
+}
